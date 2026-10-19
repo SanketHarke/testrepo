@@ -3,6 +3,9 @@ name: First Workflow
 
 # trigger based 
 on:
+    push:
+        branches:
+            - main
     workflow_dispatch:
 
 
